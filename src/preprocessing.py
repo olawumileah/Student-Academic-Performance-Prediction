@@ -128,7 +128,9 @@ def clean_dataset(df):
     faculty = {
         "Management science": "Management Sciences",
         "Basic medical sciences": "Basic Medical Sciences",
-        "Computing & Informatics": "Computing and Informatics"
+        "Computing & Informatics": "Computing and Informatics",
+         "Computing and informatics": "Computing and Informatics"
+
     }
 
     df["Faculty"] = df["Faculty"].replace(faculty)
